@@ -65,6 +65,9 @@
                         This is because it can be used quite easily for both the calculations on the data from the Arlos, and it can also be used to program the robotic components which will be necessary to engage the sprinkler system.
                         </br></br>The third part of the device is the sprinkler and robotic parts which go along with it. The three parts will be a servo motor, a robotic water valve, and the sprinkler itself.
                         </br></br>The sprinkler will be mounted onto a platform which can be rotated by the servo motor. When the program run by the Raspberry Pi calculates the location of the animal, the Pi will engage the servo motor to turn the platform so that the sprinkler is facing in the desired direction. 
+                        </br></br>A robotic water valve will be used to control the pressure of the water. This means that the jet can be targeted at animals which are at varying distances from the sprinkler. 
+                        A valve that I found which should be appropriate for the device is a <a href="https://www.bc-robotics.com/shop/plastic-water-solenoid-valve-12v-12-nominal/">Solenoid Water Valve</a>. The Raspberry Pi will trigger the valve to open at varying degrees to control water pressure.
+                        </br></br>So, in summary, when the Arlo senses motion, the Raspberry Pi will be engaged to determine the location of the motion, and will then trigger the servo motor, valve and sprinkler to ensure the water jet goes exactly where it is needed.
                         </p>
             <h3>Tools and Technologies</h3>
             <h3>Skills Required</h3>
