@@ -12,7 +12,7 @@
         <h2>About Me</h2>
             <p>Hi, I'm Ella, and live in Brisbane, Queensland, where I grew up. I'm 18, with only very little experience in IT, but I'm very eager to learn.
                  I graduated highschool in 2018, and commenced a degree at QUT in 2019, which I did not complete. I'm now studying a Bachelor of Information Technology with RMIT. 
-                </br></br> One of my hobbies is, in fact, language learning. However, I only speak English proficiently, and I have an intermediate understanding of French. I plan to improve my language skills this year!</p>
+                </br></br> One of my hobbies is, in fact, language learning. However, English is the only language I speak proficiently, and I have an intermediate understanding of French. I plan to improve my language skills this year!</p>
         <h2>Interest in Information Technology</h2>
             <p>I am interested in IT because I enjoy problem solving and using logic-based thinking skills, but I am also attracted to the creativity that is required in some IT roles.
                 My interest in IT started when my dad suggested I should learn some coding for fun - he currently works as an IT professional as well. 
@@ -30,7 +30,7 @@
                 Sass (syntactically awesome style sheets) is another style sheet language used to program the appearance of webpages.
                 JavaScript is commonly used in webpages to manage the interactive aspects of websites - JQUERY is a JavaScript library. 
                 </br></br> WCAG is a series of standards for web accessibility - including guidelines for alternate text for images and designing websites so that screen readers can interpret them, meaning that webpages are accessible to everyone.
-                </br></br> Drupal, SilverStripe and Magneto are content management systems, which facillitate cooperative contribution to webpages, especially within an organisation.</p>
+                </br></br> Drupal, SilverStripe and Magneto are content management systems, which facillitate cooperative contribution to webpages, especially within an organisation.</p> <!-- consider LI here -->
             <p>My current skills include very limited HTML, CSS and using github with command line interface. Also my portfolio consists of only one extremely basic webpage. 
                 In order to qualify for this position or similar, I will continue to simultaneously gain skills and build a portfolio by working on web design projects. I would like to prioritise finding collaborative work or projects,
                 so that I gain experience working in a team and working with content management systems. Another option that I have is to enroll myself in some courses teaching skills such as web design or, more specifically, JavaScript,
@@ -58,9 +58,13 @@
                     </br></br>Deterrents such as poison, traps and other harsher methods already exist, but these are more detrimental to wildlife populations and to the environment. The water jet solves this as it is much more gentle to both the wildlife and ecosystems – the jet simply startles the animals, and water is, of course, inherent part of any ecosystem.</p>
             <h3>Description</h3>
                     <p>The device will involve three main components – the motion detecting cameras, a Raspberry Pi, and a water sprinkler.
-                        </br></br>The first process will be detecting the animals. I hope to use two <a href="https://www.arlo.com/en-us/products/arlo/default.aspx">Arlo</a>security cameras for this purpose. 
+                        </br></br>The first process will be detecting the animals. I hope to use two <a href="https://www.arlo.com/en-us/products/arlo/default.aspx">Arlo</a> security cameras for this purpose. 
                         Arlo cameras are HD-quality security cameras with motion-sensing capabilities. They also have night vision, which is useful since a lot of wildlife – especially possums and foxes – are generally nocturnal and hence more active at night. 
                         The purpose of having the two cameras is to enable triangulation, so that it is possible to compute the location of the animal. This will allow for more precisely-targeted jets of water. The idea is that the Arlos will detect the motion, identify where the motion is (in terms of the field of the view) and relay this information to the Raspberry Pi).
+                        </br></br> The Raspberry Pi will use the data sent from the Arlos to determine the location of the creature within the yard or space using triangulation. I believe that Python would be a useful language to use for programming the Raspberry Pi. 
+                        This is because it can be used quite easily for both the calculations on the data from the Arlos, and it can also be used to program the robotic components which will be necessary to engage the sprinkler system.
+                        </br></br>The third part of the device is the sprinkler and robotic parts which go along with it. The three parts will be a servo motor, a robotic water valve, and the sprinkler itself.
+                        </br></br>The sprinkler will be mounted onto a platform which can be rotated by the servo motor. When the program run by the Raspberry Pi calculates the location of the animal, the Pi will engage the servo motor to turn the platform so that the sprinkler is facing in the desired direction. 
                         </p>
             <h3>Tools and Technologies</h3>
             <h3>Skills Required</h3>
