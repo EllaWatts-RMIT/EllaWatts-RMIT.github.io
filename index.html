@@ -57,7 +57,9 @@
                     Growing food at home also reduces food miles, which will help reduce our collective carbon footprint. However, something I have found through experience is that, wildlife – especially possums – can make this difficult as they have a tendency to munch on produce. 
                     </br></br>Deterrents such as poison, traps and other harsher methods already exist, but these are more detrimental to wildlife populations and to the environment. The water jet solves this as it is much more gentle to both the wildlife and ecosystems – the jet simply startles the animals, and water is, of course, inherent part of any ecosystem.</p>
             <h3>Description</h3>
-                    <p>The device will involve three main components – the motion detecting cameras, a Raspberry Pi, and a water sprinkler.
+                    <p>The purpose of the device is to be able to detect animal motion in a monitored area. Upon detection, the device will shoot a precise jet of water at the animal, in order to startle the animal. 
+                        The precision of the device means that less water can be used (as opposed to a motion-sensing camera triggering a sprinkler, which would simply spray aimlessly in the hopes of hitting the animal). 
+                        The device will involve three main components – the motion detecting cameras, a Raspberry Pi, and a water sprinkler.
                         </br></br>The first process will be detecting the animals. I hope to use two <a href="https://www.arlo.com/en-us/products/arlo/default.aspx">Arlo</a> security cameras for this purpose. 
                         Arlo cameras are HD-quality security cameras with motion-sensing capabilities. They also have night vision, which is useful since a lot of wildlife – especially possums and foxes – are generally nocturnal and hence more active at night. 
                         The purpose of having the two cameras is to enable triangulation, so that it is possible to compute the location of the animal. This will allow for more precisely-targeted jets of water. The idea is that the Arlos will detect the motion, identify where the motion is (in terms of the field of the view) and relay this information to the Raspberry Pi).
@@ -67,10 +69,19 @@
                         </br></br>The sprinkler will be mounted onto a platform which can be rotated by the servo motor. When the program run by the Raspberry Pi calculates the location of the animal, the Pi will engage the servo motor to turn the platform so that the sprinkler is facing in the desired direction. 
                         </br></br>A robotic water valve will be used to control the pressure of the water. This means that the jet can be targeted at animals which are at varying distances from the sprinkler. 
                         A valve that I found which should be appropriate for the device is a <a href="https://www.bc-robotics.com/shop/plastic-water-solenoid-valve-12v-12-nominal/">Solenoid Water Valve</a>. The Raspberry Pi will trigger the valve to open at varying degrees to control water pressure.
-                        </br></br>So, in summary, when the Arlo senses motion, the Raspberry Pi will be engaged to determine the location of the motion, and will then trigger the servo motor, valve and sprinkler to ensure the water jet goes exactly where it is needed.
-                        </p>
-            <h3>Tools and Technologies</h3>
-            <h3>Skills Required</h3>
+                        </br></br>So, in summary, when the Arlo senses motion, the Raspberry Pi will be engaged to determine the location of the motion, and will then trigger the servo motor, valve and sprinkler to ensure the water jet goes exactly where it is needed.</p>
+            <h3>Tools, Technologies and Skills</h3>
+                    <p>The technologies required for this project are:
+                        <ul>
+                            <li>The Arlo cameras</li>
+                            <li>The Raspberry Pi*</li>
+                            <li>The solenoid valve</li>
+                            <li>The servo motor</li>
+                            <li>The sprinkler</li>
+                        </ul>
+                        </br>Also, it will be necessary to build the platform that the sprinkler sits on, and connect the sprinkler to power and water. Hence, the project also requires water hose and a water source, and power cords. 
+                        </br></br>*A note on the Raspberry Pi: since the Arlo security cameras are wireless, the Raspberry Pi will need to have Bluetooth capabilities. 
+                    </p>
             <h3>Outcome</h3>
         <h2>References</h2>
     </body>
