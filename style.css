@@ -1,7 +1,11 @@
 body {
-    font-family: "Roboto";
+
 }
 
 h1 {
     font-family: "Arial";
+}
+
+p {
+    font-family: Roboto;
 }
