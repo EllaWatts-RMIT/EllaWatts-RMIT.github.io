@@ -37,6 +37,7 @@ li {
     text-decoration: none;
     font-size: 17px;
     font-family: Arial;
+    height:50px;
     z-index:10;
   }
 
@@ -53,6 +54,7 @@ li {
     top:40px;
     z-index:1;
     overflow:scroll;
+    height:100%;
   }
 
   .refdiv {
