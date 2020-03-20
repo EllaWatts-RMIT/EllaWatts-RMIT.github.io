@@ -74,20 +74,30 @@ li {
       height:50px;
   }
 
-  .head_grid_about {
+  .head_grid {
       display: grid;
-      grid-template-columns: 110px 90%;
   }
 
-  .head_grid_interest {
-    display: grid;
+  .a_template {
     grid-template-columns: 110px 90%;
 }
 
-  .head_two {
-      grid-column: 1 / 1;
+  .i_template {
+      grid-template-columns: 383px 90%;
   }
 
+  .j_template {
+    grid-template-columns: 383px 90%;
+  }
+
+  .pp_template {
+    grid-template-columns: 383px 90%;
+  }
+
+  .p_template {
+    grid-template-columns: 383px 90%;
+  }
+  
   .hline {
       grid-column: 2 / 2;
       height: 2.1em;
