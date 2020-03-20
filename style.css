@@ -37,7 +37,6 @@ li {
     text-decoration: none;
     font-size: 17px;
     font-family: Arial;
-    height:50px;
     z-index:10;
   }
 
@@ -51,7 +50,7 @@ li {
 
   .main {
     position:fixed;
-    top:40px;
+    top:47px;
     z-index:1;
     overflow:scroll;
     height:100%;
@@ -59,9 +58,13 @@ li {
 
   .refdiv {
       background-color: #53bdae;
-      color: #f#e0dce4;
+      color: #e0dce4;
       margin-left: -8px;
       padding-left: 8px;
+  }
+
+  .space {
+      height:50px;
   }
 
 #dc5055 red
