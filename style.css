@@ -23,6 +23,9 @@ li {
 
 .topnav {
     background-color: #f4b227;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .topnav a {
