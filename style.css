@@ -74,28 +74,29 @@ li {
       height:50px;
   }
 
-  .head_grid {
+  .head_grid_about {
       display: grid;
+      grid-template-columns: 110px 90%;
   }
 
-  .a_template {
-    grid-template-columns: 110px 90%;
+  .head_grid_interest {
+      display: grid;
+      grid-template-columns: 383px 90%;
 }
 
-  .i_template {
+ .head_grid_job {
+      display: grid;
       grid-template-columns: 383px 90%;
   }
 
-  .j_template {
-    grid-template-columns: 383px 90%;
+  .head_grid_p_profile {
+      display: grid;
+      grid-template-columns: 383px 90%;
   }
 
-  .pp_template {
-    grid-template-columns: 383px 90%;
-  }
-
-  .p_template {
-    grid-template-columns: 383px 90%;
+  .head_grid_project {
+      display: grid;
+      grid-template-columns: 383px 90%;
   }
   
   .hline {
