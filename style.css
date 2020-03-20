@@ -79,7 +79,7 @@ li {
       grid-template-columns: 110px 90%;
   }
 
-  #about_head {
+  .head_two {
       grid-column: 1 / 1;
   }
 
