@@ -76,7 +76,7 @@ li {
 
   .head_grid_about {
       display: grid;
-      grid-template-columns: auto 90%;
+      grid-template-columns: 110px 90%;
   }
 
   #about_head {
