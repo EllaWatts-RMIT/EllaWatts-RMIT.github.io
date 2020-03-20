@@ -113,11 +113,14 @@ li {
 
   .title_head {
       display: grid;
-      grid-template-columns: 450px 80%;
+      grid-template-columns: 50% 50%;
+      margin-left: 18px;
+      margin-bottom: 18px;
   }
 
   .title_right {
       grid-column: 2 / 2;
+      margin: auto 0;
   }
 
 #dc5055 red
