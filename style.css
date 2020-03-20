@@ -87,6 +87,12 @@ li {
     float: left;
 }
 
+.para {
+    display: block;
+    width: 100%;
+    
+}
+
 #dc5055 red
 #53bdae green
 #f4b227 yellow
