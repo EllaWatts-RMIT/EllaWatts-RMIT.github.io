@@ -75,8 +75,15 @@ li {
   }
 
   hr {
-      size: 1px;
-      display: inline-block;
+      size: 3px;
+  }
+
+  .hline {
+      float: left;
+  }
+
+  #about {
+      float:left;
   }
 
 #dc5055 red
