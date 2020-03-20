@@ -14,7 +14,7 @@ h3 {
 
 p {
     font-family: Arial;
-    font-weight: 200;
+    font-weight: 100;
 }
 
 li {
@@ -80,11 +80,12 @@ li {
 
   .hline {
       float: left;
+      height: 10px;
   }
 
-  #about {
-      float:left;
-  }
+#about_head {
+    float: left;
+}
 
 #dc5055 red
 #53bdae green
