@@ -74,17 +74,25 @@ li {
       height:50px;
   }
 
-  .head_grid {
+  .head_grid_about {
       display: grid;
-      grid-template-columns: 100px 90%;
+      grid-template-columns: auto 90%;
   }
 
-  #about {
+  #about_head {
       grid-column: 1 / 1;
   }
 
   .hline {
       grid-column: 2 / 2;
+      height: 2.1em;
+      border-bottom: 2px solid black;
+      margin-left:10px;
+  }
+
+  .para {
+    position: relative;
+    top:-15px;
   }
 
 #dc5055 red
