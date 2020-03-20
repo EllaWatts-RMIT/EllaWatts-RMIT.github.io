@@ -74,22 +74,23 @@ li {
       height:50px;
   }
 
-  hr {
-      size: 3px;
-  }
 
-  .hline {
-      float: left;
-      height: 10px;
-  }
+.head_box {
+    width:100%;
+}
 
-#about_head {
-    float: left;
+.hline {
+    width:500px;
+    float:left;
+    border-bottom: 1px;
+    border-color: black;
+}
+
+#about_head{
+    float:left;
 }
 
 .para {
-    display: block;
-    width: 100%;
     
 }
 
