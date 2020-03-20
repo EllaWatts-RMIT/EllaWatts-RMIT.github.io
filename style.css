@@ -23,7 +23,7 @@ li {
 
 .topnav {
     background-color: #f7e181;
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     margin-left:-8px;
@@ -51,9 +51,6 @@ li {
       margin-top: 20px;
   }
 
-  .blockboi {
-      display: block;
-  }
 
 #dc5055 red
 #53bdae green
