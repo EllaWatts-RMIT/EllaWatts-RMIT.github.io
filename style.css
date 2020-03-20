@@ -26,7 +26,7 @@ li {
     position: fixed;
     top: 0;
     width: 100%;
-    margin-left:0;
+    margin-left:-8px;
 }
 
 .topnav a {
@@ -49,6 +49,10 @@ li {
 
   .main {
       margin-top: 20px;
+  }
+
+  .blockboi {
+      display: block;
   }
 
 #dc5055 red
