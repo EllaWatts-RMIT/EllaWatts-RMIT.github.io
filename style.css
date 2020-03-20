@@ -31,7 +31,7 @@ li {
 
 .topnav a {
     float: left;
-    color: #ffff;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -41,6 +41,14 @@ li {
 
   .topnav a:hover {
     color: #dc5055;
+  }
+
+  .topnav a:active {
+      color: #dc5055;
+  }
+
+  .main {
+      margin-top: 20px;
   }
 
 #dc5055 red
