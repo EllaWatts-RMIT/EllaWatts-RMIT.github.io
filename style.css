@@ -50,7 +50,7 @@ li {
 
   .main {
     position:fixed;
-    top:47px;
+    top:48px;
     z-index:1;
     overflow:scroll;
     height:100%;
@@ -127,8 +127,29 @@ li {
     background-color:#53bdae4d;
   }
 
+  a, 
+  a:visited {
+    color: #1d6079;
+  }
+
+  refdiv > a {
+      color: black;
+  }
+
+  #one > a, #two > a, #three > a,
+  #four > a, #five > a, #six > a,
+  #seven > a {
+       color:#e0dce4;
+  }
+
+  .job_img {
+      margin-left: -8px;
+  }
+
+
 #dc5055 red
 #53bdae green
 #f4b227 yellow
 #f7e181
 #e0dce4 grey
+#e0dc34
