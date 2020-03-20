@@ -79,6 +79,11 @@ li {
       grid-template-columns: 110px 90%;
   }
 
+  .head_grid_interest {
+    display: grid;
+    grid-template-columns: 110px 90%;
+}
+
   .head_two {
       grid-column: 1 / 1;
   }
