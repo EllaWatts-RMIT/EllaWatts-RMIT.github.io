@@ -74,25 +74,18 @@ li {
       height:50px;
   }
 
+  .head_grid {
+      display: grid;
+      grid-template-columns: 100px 90%;
+  }
 
-.head_box {
-    width:100%;
-}
+  #about {
+      grid-column: 1 / 1;
+  }
 
-.hline {
-    width:500px;
-    float:left;
-    border-bottom: 1px;
-    border-color: black;
-}
-
-#about_head{
-    float:left;
-}
-
-.para {
-    
-}
+  .hline {
+      grid-column: 2 / 2;
+  }
 
 #dc5055 red
 #53bdae green
