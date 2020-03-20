@@ -111,6 +111,15 @@ li {
     top:-15px;
   }
 
+  .title_head {
+      display: grid;
+      grid-template-columns: 450px 80%;
+  }
+
+  .title_right {
+      grid-column: 2 / 2;
+  }
+
 #dc5055 red
 #53bdae green
 #f4b227 yellow
