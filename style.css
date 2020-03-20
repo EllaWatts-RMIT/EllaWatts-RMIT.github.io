@@ -20,3 +20,25 @@ p {
 li {
     font-family: Arial;
 }
+
+.topnav {
+    background-color: #f4b227;
+}
+
+.topnav a {
+    float: left;
+    color: #e0dce4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    color: #dc5055;
+  }
+
+#dc5055 red
+#53bdae green
+#f4b227 yellow
+#e0dce4 grey
