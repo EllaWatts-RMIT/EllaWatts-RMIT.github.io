@@ -54,6 +54,11 @@ li {
     z-index:1;
     overflow:scroll;
     height:100%;
+    margin-left: -8px;
+  }
+
+  .text {
+      padding-left: 8px;
   }
 
   .refdiv {
