@@ -78,27 +78,27 @@ li {
 
   .head_grid_about {
       display: grid;
-      grid-template-columns: max-content 90%;
+      grid-template-columns: max-content auto;
   }
 
   .head_grid_interest {
       display: grid;
-      grid-template-columns: max-content 90%;
+      grid-template-columns: max-content auto;
 }
 
  .head_grid_job {
       display: grid;
-      grid-template-columns: max-content 90%;
+      grid-template-columns: max-content auto;
   }
 
   .head_grid_p_profile {
       display: grid;
-      grid-template-columns: max-content 90%;
+      grid-template-columns: max-content auto;
   }
 
   .head_grid_project {
       display: grid;
-      grid-template-columns: max-content 90%;
+      grid-template-columns: max-content auto;
   }
   
   .hline {
