@@ -1,26 +1,26 @@
 @font-face {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 h1 {
-    font-family: 'Source Sans Pro', Arial;
+    font-family: 'Raleway', Arial;
 }
 
 h2 {
-    font-family: 'Source Sans Pro', Arial;
+    font-family: 'Raleway', Arial;
 }
 
 h3 {
-    font-family: 'Source Sans Pro', Arial;
+    font-family: 'Raleway', Arial;
 }
 
 p {
-    font-family: 'Source Sans Pro', Arial;
+    font-family: 'Raleway', Arial;
     font-weight: 100;
 }
 
 li {
-    font-family: 'Source Sans Pro', Arial;
+    font-family: 'Raleway', Arial;
 }
 
 .topnav {
@@ -38,7 +38,7 @@ li {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    font-family: 'Source Sans Pro', Arial;
+    font-family: 'Raleway', Arial;
     z-index:10;
   }
 
