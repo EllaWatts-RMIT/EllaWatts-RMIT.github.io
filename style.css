@@ -198,6 +198,11 @@ li {
       justify-self: center;
   }
 
+  .refdiv p,
+  .refdiv a {
+      line-height: 1.1;
+  }
+
 #dc5055 red
 #53bdae green
 #f4b227 yellow
