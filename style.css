@@ -16,11 +16,12 @@ h3 {
 
 p {
     font-family: 'Raleway', Arial;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 li {
     font-family: 'Raleway', Arial;
+    font-weight: 300;
 }
 
 .topnav {
@@ -148,6 +149,7 @@ li {
       grid-template-rows: auto auto auto;
       margin-top: 15px;
       margin-bottom: 30px;
+      margin-right: 30px;
       grid-gap: 10px;
   }
 
