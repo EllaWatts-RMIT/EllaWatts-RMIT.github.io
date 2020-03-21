@@ -196,16 +196,13 @@ li {
 
   .caption {
       justify-self: center;
+      font-size:85%;
+      color: #616161;
+      position: relative;
+      top:-10px;
   }
 
   .refdiv p,
   .refdiv a {
       line-height: 1.1;
   }
-
-#dc5055 red
-#53bdae green
-#f4b227 yellow
-#f7e181
-#e0dce4 grey
-#e0dc34
