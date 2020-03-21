@@ -210,3 +210,7 @@ li {
     font-weight: bolder;
     margin-top:25px;
 }
+
+html {
+    font-size: 120px;
+}
