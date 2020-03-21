@@ -78,32 +78,32 @@ li {
 
   .head_grid_about {
       display: grid;
-      grid-template-columns: 110px 90%;
+      grid-template-columns: max-content 90%;
   }
 
   .head_grid_interest {
       display: grid;
-      grid-template-columns: 393px 90%;
+      grid-template-columns: max-content 90%;
 }
 
  .head_grid_job {
       display: grid;
-      grid-template-columns: 105px 90%;
+      grid-template-columns: max-content 90%;
   }
 
   .head_grid_p_profile {
       display: grid;
-      grid-template-columns: 183px 90%;
+      grid-template-columns: max-content 90%;
   }
 
   .head_grid_project {
       display: grid;
-      grid-template-columns: 137px 90%;
+      grid-template-columns: max-content 90%;
   }
   
   .hline {
       grid-column: 2 / 2;
-      height: 2.1em;
+      height: 2.2em;
       border-bottom: 2px solid black;
       margin-left:10px;
   }
@@ -173,6 +173,7 @@ li {
       grid-row:2/2;
       text-align: right;
       align-self: center;
+      margin-right: 45px;
   }
 
   #PCi {
