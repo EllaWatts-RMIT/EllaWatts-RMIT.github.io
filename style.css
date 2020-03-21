@@ -141,6 +141,7 @@ li {
 
   .job_img {
       margin-left: -20px;
+      display: grid;
   }
 
   .profile_grid {
