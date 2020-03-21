@@ -1,24 +1,26 @@
-
+@font-face {
+    font-family: 'Source Sans Pro', sans-serif;
+}
 
 h1 {
-    font-family: Arial;
+    font-family: 'Source Sans Pro', Arial;
 }
 
 h2 {
-    font-family: Arial;
+    font-family: 'Source Sans Pro', Arial;
 }
 
 h3 {
-    font-family: Arial;
+    font-family: 'Source Sans Pro', Arial;
 }
 
 p {
-    font-family: Arial;
+    font-family: 'Source Sans Pro', Arial;
     font-weight: 100;
 }
 
 li {
-    font-family: Arial;
+    font-family: 'Source Sans Pro', Arial;
 }
 
 .topnav {
@@ -36,7 +38,7 @@ li {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    font-family: Arial;
+    font-family: 'Source Sans Pro', Arial;
     z-index:10;
   }
 
