@@ -127,8 +127,8 @@ li {
     background-color:#53bdae4d;
   }
 
-  a, 
-  a:visited {
+  .text a, 
+  .text a:visited {
     color: #1d6079;
   }
 
@@ -146,6 +146,8 @@ li {
       display:grid;
       grid-template-columns: 50% 50%;
       grid-template-rows: auto auto auto;
+      margin-top: 15px;
+      grid-gap: 10px;
   }
 
   #MBTi {
@@ -156,6 +158,26 @@ li {
   #MBTp {
       grid-column: 2/2;
       grid-row: 1/1;
+  }
+
+  #LSi {
+      grid-column: 2/2;
+      grid-row:2/2'
+  }
+
+  #LSp {
+      grid-column:1/1;
+      grid-row:2/2;
+  }
+
+  #PCi {
+      grid-column: 1/1;
+      grid-row:3/3;
+  }
+
+  #PCp {
+      grid-column: 2/2;
+      grid-row:3/3;
   }
 
 #dc5055 red
