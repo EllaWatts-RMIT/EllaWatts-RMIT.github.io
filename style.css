@@ -132,9 +132,7 @@ li {
     color: #1d6079;
   }
 
-  #one > a, #two > a, #three > a,
-  #four > a, #five > a, #six > a,
-  #seven > a {
+  .refdiv a {
        color:#e0dce4;
   }
 
@@ -147,6 +145,7 @@ li {
       grid-template-columns: 50% 50%;
       grid-template-rows: auto auto auto;
       margin-top: 15px;
+      margin-bottom: 10px;
       grid-gap: 10px;
   }
 
